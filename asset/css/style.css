@@ -1,58 +1,55 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+/* Estilos específicos para contacto.html */
+
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #198754; /* Color verde institucional */
+    padding-bottom: 10px;
 }
 
-/* Carrusel */
-.carousel img {
-    height: 400px;
-    object-fit: cover;
+#form-contacto {
+    background-color: #f8f9fa;
+    transition: box-shadow 0.3s ease;
 }
 
-/* Cards */
-.card {
-    border-radius: 10px;
-    transition: 0.3s;
+#form-contacto:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* Botones */
-.btn-success {
+.btn-primary {
     background-color: #198754;
     border: none;
 }
 
-.btn-success:hover {
+.btn-primary:hover {
     background-color: #146c43;
+    transform: translateY(-2px);
 }
 
-/* Tamaño del carrusel */
-.carousel img {
-    height: 500px;
-    object-fit: cover;
+aside ul li {
+    margin-bottom: 15px;
+    padding-left: 5px;
 }
 
-/* Caja verde encima */
-.overlay {
-    position: absolute;
-    bottom: 40px;
-    left: 40px;
-    background: rgba(25, 135, 84, 0.9); /* verde */
-    color: white;
-    padding: 25px;
-    border-radius: 15px;
-    max-width: 400px;
+iframe {
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
 }
 
-/* Texto */
-.overlay h1 {
-    font-size: 2rem;
-    font-weight: bold;
+.card-img-top{
+    width: 300px;
 }
 
-.overlay h5 {
-    font-size: 1rem;
+.nav-item.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-menu{
+    border-radius: 8px;
+    z-index: 9999;
+}
+
+.dropdown-menu{
+    transition: all 0.3s ease;
 }
