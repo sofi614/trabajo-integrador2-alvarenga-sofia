@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Carrusel */
+.carousel img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Botones */
+.btn-success {
+    background-color: #198754;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #146c43;
+}
+
+/* Tamaño del carrusel */
+.carousel img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Caja verde encima */
+.overlay {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    background: rgba(25, 135, 84, 0.9); /* verde */
+    color: white;
+    padding: 25px;
+    border-radius: 15px;
+    max-width: 400px;
+}
+
+/* Texto */
+.overlay h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.overlay h5 {
+    font-size: 1rem;
+}
