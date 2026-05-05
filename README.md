@@ -7,8 +7,9 @@
 ##Descripcion 
 sitio web del Instituto Politecnico Formosa 
 ##componentes de bootstrap utilizado
--Navbar responsivo
--Formulario de contactos 
--Botones estilizados 
--collapse
--list group
+- Navbar responsivo
+- Formulario de contactos 
+- Botones estilizados 
+- collapse
+- carrusel
+- list group
